@@ -56,7 +56,7 @@ education:
     date_start: 2016-09-01
     date_end: 2022-12-31
     summary: |
-      Supervised by [Prof. Zhenhua Qiao](http://staff.ustc.edu.cn/~qiao/members.html).
+      Supervised by [http://staff.ustc.edu.cn/~qiao/members.html](Prof. Zhenhua Qiao (乔振华 教授)).
       Published 1 _Physical Review Letters_, 1 _Chemistry of Materials_, 1 _Frontier of Physics_.
     button:
       text: 'Read Thesis'
@@ -78,7 +78,7 @@ work:
     date_start: 2023-04-04
     date_end: ''
     summary: |2-
-      Supervised by Prof. Lixin He ([lab](http://lqcc.ustc.edu.cn/helx), [recruit](https://iatyz.ustc.edu.cn/teacher/profile/name/%E4%BD%95%E5%8A%9B%E6%96%B0), and [Google Scholar](https://scholar.google.com/citations?user=_IbBsXUAAAAJ&hl=en)).
+      Supervised by [http://lqcc.ustc.edu.cn/helx](Prof. Lixin He (何力新 教授)). His [https://iatyz.ustc.edu.cn/teacher/profile/name/%E4%BD%95%E5%8A%9B%E6%96%B0](recruit page) and [https://scholar.google.com/citations?user=_IbBsXUAAAAJ&hl=en](Google Scholar).
 
 
 # Skills
@@ -155,4 +155,4 @@ awards:
 
 ## About Me
 
-Xudong Zhu received the PhD degree in physics from the University of Science and Technology of China in 2022. He is currently a post-doctral researcher at the School of Physical Sciences, University of Science and Technology of China & the Institute of Artificial Intelligence, Hefei Comprehensive National Science Center. His research interests include topological condensed matter systems, mutiferroic materialsand machine learning force field.
+Xudong Zhu received the PhD degree in physics from the University of Science and Technology of China in 2022. He is currently a post-doctral researcher at the School of Physical Sciences, University of Science and Technology of China & the Institute of Artificial Intelligence, Hefei Comprehensive National Science Center. His research interests include topological condensed matter systems, mutiferroic materials and machine learning force field.
