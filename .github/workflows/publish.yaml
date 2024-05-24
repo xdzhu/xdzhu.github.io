@@ -76,11 +76,11 @@ jobs:
       uses: actions/deploy-pages@v2
       # Deploy to USTC server
       # Deploy to USTC server using FTP
-    - name: Deploy to USTC server
+    - name: Deploy to server
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: ftp://home.ustc.edu.cn
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
+        server:  ${{ secrets.MY_FTP_SEVER }}
+        username: ${{ secrets.REMOTE_USER }}
+        password: ${{ secrets.REMOTE_PASSWORD }}
         local-dir: ./public
         server-dir: /public_html
