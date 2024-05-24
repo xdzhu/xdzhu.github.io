@@ -37,7 +37,7 @@ sections:
       text: |-
         I'm a research scientist in the ABACUS team at IAI-Hefei. I blog about DFT calculations, physics and deep learning.
 
-        I apply a range of first-principle calculations methods to comprehensively investigate the physical propeties of topological materials, multiferroic materials (ferromagnetic, ferroelectric) and high-_k materials.
+        I apply a range of first-principle calculations methods to comprehensively investigate the physical propeties of topological materials, multiferroic materials (ferromagnetic, ferroelectric) and high-_k_ materials.
         
         Please reach out to collaborate 😃
     design:
