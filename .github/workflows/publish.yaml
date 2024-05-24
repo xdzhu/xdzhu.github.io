@@ -55,8 +55,15 @@ jobs:
       run: |
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
         hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        
     - name: Generate Pagefind search index
       run: npx pagefind --site "public"
+      
+    - name: Debug Secrets
+      run: |
+        echo "REMOTE_USER: ${{ secrets.REMOTE_USER }}"
+        echo "REMOTE_PASSWORD is set" if [[ -n "${{ secrets.REMOTE_PASSWORD }}" ]] else echo "REMOTE_PASSWORD is not set"
+        
     - name: Deploy to my server First 
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
@@ -65,6 +72,7 @@ jobs:
         password: ${{ secrets.REMOTE_PASSWORD }}
         local-dir: ./public/
         server-dir: public_html/
+        
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v2
       with:
