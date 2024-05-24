@@ -74,3 +74,14 @@ jobs:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v2
+      # Deploy to USTC server
+    - name: Deploy to USTC server
+      uses: appleboy/scp-action@master
+      with:
+        host: home.ustc.edu.cn
+        username: ${{ secrets.REMOTE_USER }}
+        password: ${{ secrets.REMOTE_PASSWORD }}
+        port: 21
+        source: "./public/*"
+        target: "/path/to/your/web/directory"
+        
