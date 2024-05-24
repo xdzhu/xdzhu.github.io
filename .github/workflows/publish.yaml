@@ -75,7 +75,7 @@ jobs:
       id: deployment
       uses: actions/deploy-pages@v2
     - name: Deploy to my server
-      uses: SamKirkland/FTP-Deploy-Action@4.3.5
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server:  ${{ secrets.MY_FTP_SEVER }}
         username: ${{ secrets.REMOTE_USER }}
