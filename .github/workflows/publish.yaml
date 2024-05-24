@@ -26,6 +26,10 @@ jobs:
     if: github.repository_owner != 'HugoBlox'
     runs-on: ubuntu-latest
     steps:
+    - name: Setup Go
+      uses: actions/setup-go@v3
+      with:
+        go-version: '1.22.0'  # 选择一个与 Hugo 兼容的 Go 版本
     - name: Checkout
       uses: actions/checkout@v4
       with:
