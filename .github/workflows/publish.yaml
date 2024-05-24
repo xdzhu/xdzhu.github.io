@@ -62,7 +62,11 @@ jobs:
     - name: Debug Secrets
       run: |
         echo "REMOTE_USER: ${{ secrets.REMOTE_USER }}"
-        echo "REMOTE_PASSWORD is set" if [[ -n "${{ secrets.REMOTE_PASSWORD }}" ]] else echo "REMOTE_PASSWORD is not set"
+        if [[ -n "${{ secrets.REMOTE_PASSWORD }}" ]]; then
+          echo "REMOTE_PASSWORD is set"
+        else
+          echo "REMOTE_PASSWORD is not set"
+        fi
         
     - name: Deploy to my server First 
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
