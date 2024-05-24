@@ -75,13 +75,12 @@ jobs:
       id: deployment
       uses: actions/deploy-pages@v2
       # Deploy to USTC server
+      # Deploy to USTC server using FTP
     - name: Deploy to USTC server
-      uses: appleboy/scp-action@master
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        host: home.ustc.edu.cn
-        username: ${{ secrets.REMOTE_USER }}
-        password: ${{ secrets.REMOTE_PASSWORD }}
-        port: 22
-        source: "./public/*"
-        target: "/public_html"
-        
+        server: ftp://home.ustc.edu.cn
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./public
+        server-dir: /public_html
