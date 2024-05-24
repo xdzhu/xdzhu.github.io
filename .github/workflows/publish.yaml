@@ -58,13 +58,13 @@ jobs:
     - name: Generate Pagefind search index
       run: npx pagefind --site "public"
     - name: Deploy to my server First 
-      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      uses: SamKirkland/FTP-Deploy-Action@4.3.4
       with:
-        server:  ${{ secrets.MY_FTP_SEVER }}
+        server: ${{ secrets.MY_FTP_SEVER }}
         username: ${{ secrets.REMOTE_USER }}
         password: ${{ secrets.REMOTE_PASSWORD }}
         local-dir: ./public/
-        server-dir: /public_html/
+        server-dir: public_html/
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v2
       with:
