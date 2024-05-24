@@ -81,7 +81,7 @@ jobs:
         host: home.ustc.edu.cn
         username: ${{ secrets.REMOTE_USER }}
         password: ${{ secrets.REMOTE_PASSWORD }}
-        port: 21
+        port: 22
         source: "./public/*"
         target: "/public_html"
         
