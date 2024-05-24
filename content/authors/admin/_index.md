@@ -55,8 +55,8 @@ education:
     institution: University of Science and Technology of China (USTC)
     date_start: 2016-09-01
     date_end: 2022-12-31
-    summary: |
-      Supervised by [http://staff.ustc.edu.cn/~qiao/members.html](Prof. Zhenhua Qiao (乔振华 教授)).
+    summary: |2-
+      Supervised by [Prof. Zhenhua Qiao (乔振华 教授)](http://staff.ustc.edu.cn/~qiao/members.html).
       Published 1 _Physical Review Letters_, 1 _Chemistry of Materials_, 1 _Frontier of Physics_.
     button:
       text: 'Read Thesis'
@@ -65,7 +65,7 @@ education:
     institution: University of Electronic Science and Technology of China (UESTC)
     date_start: 2012-09-01
     date_end: 2016-07-01
-    summary: |
+    summary: |4-
       GPA: 3.85/4.0
       National Scholarship
       2nd Prize in the China Undergraduate Physics Tournament (CUPT2013)
@@ -78,7 +78,7 @@ work:
     date_start: 2023-04-04
     date_end: ''
     summary: |2-
-      Supervised by [http://lqcc.ustc.edu.cn/helx](Prof. Lixin He (何力新 教授)). His [https://iatyz.ustc.edu.cn/teacher/profile/name/%E4%BD%95%E5%8A%9B%E6%96%B0](recruit page) and [https://scholar.google.com/citations?user=_IbBsXUAAAAJ&hl=en](Google Scholar).
+      Supervised by [Prof. Lixin He (何力新 教授)](http://lqcc.ustc.edu.cn/helx). His [recruit page](https://iatyz.ustc.edu.cn/teacher/profile/name/%E4%BD%95%E5%8A%9B%E6%96%B0) and [Google Scholar](https://scholar.google.com/citations?user=_IbBsXUAAAAJ&hl=en).
 
 
 # Skills
