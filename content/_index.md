@@ -35,9 +35,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I'm a research scientist in the ABACUS team at IAI-Hefei. I blog about DFT calculations, physics and deep learning.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        I apply a range of first-principle calculations methods to comprehensively investigate the physical propeties of topological materials, multiferroic materials (ferromagnetic, ferroelectric) and high-_k materials.
         
         Please reach out to collaborate 😃
     design:

@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 朱旭东
+title: Xudong Zhu (朱旭东)
 
 # Name pronunciation (optional)
-name_pronunciation: Xudong Zhu
+name_pronunciation: 
 
 # Full name (for SEO)
 first_name: Xudong
@@ -24,6 +24,8 @@ role: Postdoc Reseacher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
+  - name: School of Physical Sciences, University of Science and Technology of China
+    url: https://physics.ustc.edu.cn/
   - name: Institute of Artificial Intelligence, Hefei Comprehensive National Science Center
     url: https://iai.ustc.edu.cn/
 
@@ -31,60 +33,52 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:my_email@example.com'
+    url: 'mailto:zhuxudong[AT]mail.ustc.edu.cn'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://github.com/xdzhu
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0003-2006-7109
 
 interests:
-  - Topological Condensed Matter Physics
-  - Mutiferroic Materials (Ferromagnetism & Ferroelectricity)
-  - Machine Learning Force Field (MLFF)
-  - Artifical Intelligence for Physics
+  - Topological Physics
+  - Mutiferroic Materials
+  - Machine Learning Force Field
+  - AI for Physics
 
 education:
   - area: PhD Condensed Matter Physics
-    institution: University of Science and Technology of China
+    institution: University of Science and Technology of China (USTC)
     date_start: 2016-09-01
     date_end: 2022-12-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof. Zhenhua Qiao](http://staff.ustc.edu.cn/~qiao/members.html). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Supervised by [Prof. Zhenhua Qiao](http://staff.ustc.edu.cn/~qiao/members.html).
+      Published 1 _Physical Review Letters_, 1 _Chemistry of Materials_, 1 _Frontier of Physics_.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
   - area: BSc Basic Science of Mathematics and Physics (Base Class)
-    institution: University of Electronic Science and Technology of China
+    institution: University of Electronic Science and Technology of China (UESTC)
     date_start: 2012-09-01
     date_end: 2016-07-01
     summary: |
-      GPA: 3.86/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      GPA: 3.85/4.0
+      National Scholarship
+      2nd Prize in the China Undergraduate Physics Tournament (CUPT2013)
+      Recomended to University of Science and Technology of China (USTC) to pursue PhD degree.
 work:
   - position: Postdoc Reseacher
-    company_name: Institute of Artificial Intelligence, Hefei Comprehensive National Science Center
+    company_name: School of Physical Sciences, University of Science and Technology of China & Institute of Artificial Intelligence, Hefei Comprehensive National Science Center
     company_url: ''
     company_logo: ''
     date_start: 2023-04-04
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Supervised by Prof. Lixin He ([lab](http://lqcc.ustc.edu.cn/helx), [recruit](https://iatyz.ustc.edu.cn/teacher/profile/name/%E4%BD%95%E5%8A%9B%E6%96%B0), and [Google Scholar](https://scholar.google.com/citations?user=_IbBsXUAAAAJ&hl=en)).
 
 
 # Skills
@@ -94,15 +88,15 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 90
         icon: code-bracket
-      - name: Data Science
+      - name: Linux Shell
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: Bash
         description: ''
-        percent: 40
+        percent: 100
         icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
@@ -161,4 +155,4 @@ awards:
 
 ## About Me
 
-Xudong Zhu received the PhD degree in physics from the University of Science and Technology of China in 2022. He is currently a post-doctral researcher at the Institute of Artificial Intelligence, Hefei Comprehensive National Science Center, Hefei, China. His research interests include topological condensed matter systems, mutiferroic materials by using density functional theory method and deep learning atomic potentials.
+Xudong Zhu received the PhD degree in physics from the University of Science and Technology of China in 2022. He is currently a post-doctral researcher at the School of Physical Sciences, University of Science and Technology of China & the Institute of Artificial Intelligence, Hefei Comprehensive National Science Center. His research interests include topological condensed matter systems, mutiferroic materialsand machine learning force field.
