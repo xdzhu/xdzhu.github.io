@@ -83,5 +83,5 @@ jobs:
         password: ${{ secrets.REMOTE_PASSWORD }}
         port: 21
         source: "./public/*"
-        target: "/path/to/your/web/directory"
+        target: "/public_html"
         
