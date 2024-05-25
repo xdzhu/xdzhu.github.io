@@ -1,7 +1,7 @@
-name: Deploy website to MY FTP sever
+# name: Deploy website to MY FTP sever change to use my hook to deploy
 
-env:
-  WC_HUGO_VERSION: '0.126.1'
+# env:
+#   WC_HUGO_VERSION: '0.126.1'
 
 # on:
 #   push:
