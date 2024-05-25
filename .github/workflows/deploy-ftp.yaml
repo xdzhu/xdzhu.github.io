@@ -1,34 +1,70 @@
-name: Deploy to USTC Server
+name: Deploy website to GitHub Pages
+
+env:
+  WC_HUGO_VERSION: '0.126.1'
 
 on:
   push:
-    branches:
-      - main  # or any other branch
+    branches: ["main"]
   workflow_dispatch:
 
-jobs:
-  deploy2ustc:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
-    - name: Set up Hugo
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      pages_url: ${{ steps.pages.outputs.base_url }}
+    steps:
+    - name: Setup Go
+      uses: actions/setup-go@v3
+      with:
+        go-version: '1.22.0'
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
       with:
-        hugo-version: '0.126.1'  # Ensure this matches the Hugo version you need
+        hugo-version: ${{ env.WC_HUGO_VERSION }}
         extended: true
-
+    - uses: actions/cache@v3
+      with:
+        path: /tmp/hugo_cache_runner/
+        key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
+        restore-keys: |
+          ${{ runner.os }}-hugomod-
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v3
     - name: Build with Hugo
-      run: hugo --minify --baseURL "${{ secrets.MY_HOME_URL }}"
-
+      env:
+        HUGO_ENVIRONMENT: production
+      run: |
+        echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
+        hugo --minify --baseURL "${{ secrets.MY_HOME_URL }}"
     - name: Generate Pagefind search index
       run: npx pagefind --site "public"
-
-    - name: Deploy to USTC server
+    - name: Debug Secrets
+      run: |
+        echo "REMOTE_USER: ${{ secrets.REMOTE_USER }}"
+        if [[ -n "${{ secrets.REMOTE_PASSWORD }}" ]]; then
+          echo "REMOTE_PASSWORD is set"
+        else
+          echo "REMOTE_PASSWORD is not set"
+        fi
+    - name: Deploy to my server
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ${{ secrets.MY_FTP_SERVER }}
+        server: ${{ secrets.MY_FTP_SEVER }}
         username: ${{ secrets.REMOTE_USER }}
         password: ${{ secrets.REMOTE_PASSWORD }}
         local-dir: ./public/
