@@ -73,7 +73,7 @@ work:
     date_end: ''
     summary: |
       Supervised by Prof. Lixin He (何力新 教授). 
-    buttons:
+    button:
       - text: 'Prof. He's Google Scholar'
         url: 'https://scholar.google.com/citations?user=_IbBsXUAAAAJ&hl=en'
       - text: 'Prof. He's Homepage'
