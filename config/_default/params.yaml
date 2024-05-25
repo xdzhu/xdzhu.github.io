@@ -37,10 +37,10 @@ header:
     logo:
       text: "Xudong Zhu"
 
-# Site footer
+# Site footer # This work is licensed under {license}
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Dr. Xudong Zhu.' 
     license:
       enable: true
       allow_derivatives: false

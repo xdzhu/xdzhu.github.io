@@ -1,5 +1,5 @@
 ---
-title: "An example journal article"
+title: " Valley-polarized quantum nomalous Hall effect in van der Waals heterostructures based on monolayer jacutingaite family materials"
 authors:
 - admin
 - Robert Ford

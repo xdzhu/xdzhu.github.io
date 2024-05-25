@@ -1,12 +1,15 @@
 ---
-title: "An example preprint / working paper"
+title: "Pressure-Induced Dimensional Crossover in a Kagome Superconductor"
 authors:
 - admin
-date: "2019-04-07T00:00:00Z"
+- Zhenhua Qiao
+- Jianjun Ying
+- Xianhui Chen
+date: "2022-02-27T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2022-02-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -23,7 +26,8 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Large Language Models
+- Kagome
+- Topological
 
 featured: true
 

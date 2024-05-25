@@ -11,7 +11,7 @@ last_name: Zhu
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 😎
 
 # Is this the primary user of the site?
 superuser: true
@@ -24,7 +24,7 @@ role: Postdoc Reseacher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: School of Physical Sciences, University of Science and Technology of China
+  - name: School of Physical Sciences, University of Science and Technology of China (USTC)
     url: https://physics.ustc.edu.cn/
   - name: Institute of Artificial Intelligence, Hefei Comprehensive National Science Center
     url: https://iai.ustc.edu.cn/
@@ -35,8 +35,6 @@ profiles:
   - icon: at-symbol
     url: 'mailto:zhuxudong[AT]mail.ustc.edu.cn'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/github
     url: https://github.com/xdzhu
   - icon: academicons/google-scholar
@@ -51,25 +49,21 @@ interests:
   - AI for Physics
 
 education:
-  - area: PhD Condensed Matter Physics
+  - area: Ph.D. of Condensed Matter Physics
     institution: University of Science and Technology of China (USTC)
     date_start: 2016-09-01
-    date_end: 2022-12-31
+    date_end: 2022-12-06
     summary: |
-      Supervised by [Prof. Zhenhua Qiao (乔振华 教授)](http://staff.ustc.edu.cn/~qiao/members.html).
-      Published 1 _Physical Review Letters_, 1 _Chemistry of Materials_, 1 _Frontier of Physics_.
+      Supervised by Prof. Zhenhua Qiao (乔振华 教授). Published 1 _Physical Review Letters_, 1 _Chemistry of Materials_, and 1 _Frontiers of Physics_.
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: BSc Basic Science of Mathematics and Physics (Base Class)
+      text: 'Prof. Qiao's Group'
+      url: 'http://staff.ustc.edu.cn/~qiao/publications.html'
+  - area: B.Sc. Basic Science of Mathematics and Physics (Base Class)
     institution: University of Electronic Science and Technology of China (UESTC)
     date_start: 2012-09-01
     date_end: 2016-07-01
-    summary: |
-      GPA: 3.85/4.0
-      National Scholarship
-      2nd Prize in the China Undergraduate Physics Tournament (CUPT2013)
-      Recomended to University of Science and Technology of China (USTC) to pursue PhD degree.
+    summary: |2- 
+      GPA rank TOP 10%, National Scholarship, 2nd Prize in the China Undergraduate Physics Tournament (CUPT2013), and recomended to University of Science and Technology of China (USTC) to pursue PhD degree.
 work:
   - position: Postdoc Reseacher
     company_name: School of Physical Sciences, University of Science and Technology of China & Institute of Artificial Intelligence, Hefei Comprehensive National Science Center
@@ -78,9 +72,12 @@ work:
     date_start: 2023-04-04
     date_end: ''
     summary: |
-      Supervised by [Prof. Lixin He (何力新 教授)](http://lqcc.ustc.edu.cn/helx). His [recruit page](https://iatyz.ustc.edu.cn/teacher/profile/name/%E4%BD%95%E5%8A%9B%E6%96%B0) and [Google Scholar](https://scholar.google.com/citations?user=_IbBsXUAAAAJ&hl=en).
-
-
+      Supervised by Prof. Lixin He (何力新 教授). 
+    buttons:
+      - text: 'Prof. He's Google Scholar'
+        url: 'https://scholar.google.com/citations?user=_IbBsXUAAAAJ&hl=en'
+      - text: 'Prof. He's Homepage'
+        url: 'http://lqcc.ustc.edu.cn/helx'
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
@@ -155,4 +152,4 @@ awards:
 
 ## About Me
 
-Xudong Zhu received the PhD degree in physics from the University of Science and Technology of China in 2022. He is currently a post-doctral researcher at the School of Physical Sciences, University of Science and Technology of China & the Institute of Artificial Intelligence, Hefei Comprehensive National Science Center. His research interests include topological condensed matter systems, mutiferroic materials and machine learning force field.
+Xudong Zhu (朱旭东) received his Ph.D. degree in physics from the University of Science and Technology of China (USTC) in 2022. He is currently a post-doctral researcher at the School of Physical Sciences, University of Science and Technology of China & the Institute of Artificial Intelligence, Hefei Comprehensive National Science Center. His research interests include topological condensed matter systems, mutiferroic materials and machine learning force field.
