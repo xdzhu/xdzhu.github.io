@@ -1,4 +1,4 @@
-name: Deploy website to GitHub Pages
+name: Deploy website to MY FTP sever
 
 env:
   WC_HUGO_VERSION: '0.126.1'
@@ -20,8 +20,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    outputs:
-      pages_url: ${{ steps.pages.outputs.base_url }}
     steps:
     - name: Setup Go
       uses: actions/setup-go@v3
@@ -64,7 +62,7 @@ jobs:
     - name: Deploy to my server
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ${{ secrets.MY_FTP_SEVER }}
+        server:  ${{ secrets.MY_FTP_SEVER }}
         username: ${{ secrets.REMOTE_USER }}
         password: ${{ secrets.REMOTE_PASSWORD }}
         local-dir: ./public/
