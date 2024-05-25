@@ -54,7 +54,8 @@ education:
     date_start: 2016-09-01
     date_end: 2022-12-06
     summary: |
-      Supervised by Prof. Zhenhua Qiao (乔振华 教授). Published 1 _Physical Review Letters_, 1 _Chemistry of Materials_, and 1 _Frontiers of Physics_.
+      Supervised by Prof. Zhenhua Qiao (乔振华 教授). 
+      Published 1 _Physical Review Letters_, 1 _Chemistry of Materials_, and 1 _Frontiers of Physics_.
     button:
       text: 'Prof. Qiao's Group'
       url: 'http://staff.ustc.edu.cn/~qiao/publications.html'
@@ -71,8 +72,7 @@ work:
     company_logo: ''
     date_start: 2023-04-04
     date_end: ''
-    summary: |
-      Supervised by Prof. Lixin He (何力新 教授). 
+    summary: Supervised by Prof. Lixin He (何力新 教授). 
     button:
       - text: 'Prof. He's Google Scholar'
         url: 'https://scholar.google.com/citations?user=_IbBsXUAAAAJ&hl=en'
