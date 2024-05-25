@@ -1,0 +1,35 @@
+name: Deploy to USTC Server
+
+on:
+  push:
+    branches:
+      - main  # or any other branch
+  workflow_dispatch:
+
+jobs:
+  deploy2ustc:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Hugo
+      uses: peaceiris/actions-hugo@v3
+      with:
+        hugo-version: '0.126.1'  # Ensure this matches the Hugo version you need
+        extended: true
+
+    - name: Build with Hugo
+      run: hugo --minify --baseURL "${{ secrets.MY_HOME_URL }}"
+
+    - name: Generate Pagefind search index
+      run: npx pagefind --site "public"
+
+    - name: Deploy to USTC server
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ secrets.MY_FTP_SERVER }}
+        username: ${{ secrets.REMOTE_USER }}
+        password: ${{ secrets.REMOTE_PASSWORD }}
+        local-dir: ./public/
+        server-dir: public_html/
