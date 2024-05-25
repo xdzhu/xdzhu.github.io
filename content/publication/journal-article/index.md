@@ -2,7 +2,7 @@
 title: " Valley-polarized quantum nomalous Hall effect in van der Waals heterostructures based on monolayer jacutingaite family materials"
 authors:
 - admin
-- Robert Ford
+- Zhenhua Qiao
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
