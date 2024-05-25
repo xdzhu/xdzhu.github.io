@@ -4,13 +4,10 @@ env:
   WC_HUGO_VERSION: '0.126.1'
 
 on:
-  # Trigger the workflow every time you push to the `main` branch
   push:
     branches: ["main"]
-  # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
-# Provide permission to clone the repo and deploy it to GitHub Pages
 permissions:
   contents: read
   pages: write
@@ -21,19 +18,18 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build website
   build:
-    if: github.repository_owner != 'HugoBlox'
     runs-on: ubuntu-latest
+    outputs:
+      pages_url: ${{ steps.pages.outputs.base_url }}
     steps:
     - name: Setup Go
       uses: actions/setup-go@v3
       with:
-        go-version: '1.22.0'  # 选择一个与 Hugo 兼容的 Go 版本
+        go-version: '1.22.0'
     - name: Checkout
       uses: actions/checkout@v4
       with:
-          # Fetch history for Hugo's .GitInfo and .Lastmod
         fetch-depth: 0
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
@@ -55,43 +51,44 @@ jobs:
       run: |
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
         hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-        
     - name: Generate Pagefind search index
       run: npx pagefind --site "public"
-      
-    - name: Debug Secrets
-      run: |
-        echo "REMOTE_USER: ${{ secrets.REMOTE_USER }}"
-        if [[ -n "${{ secrets.REMOTE_PASSWORD }}" ]]; then
-          echo "REMOTE_PASSWORD is set"
-        else
-          echo "REMOTE_PASSWORD is not set"
-        fi
-        
-    - name: Deploy to my server First 
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-      with:
-        server: home.ustc.edu.cn
-        username: ${{ secrets.REMOTE_USER }}
-        password: ${{ secrets.REMOTE_PASSWORD }}
-        local-dir: ./public/
-        server-dir: public_html/
-        
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v2
       with:
         path: ./public
 
-
-  # Deploy website to GitHub Pages hosting
   deploy:
-    if: github.repository_owner != 'HugoBlox'
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
     needs: build
+    runs-on: ubuntu-latest
     steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Download artifact
+      uses: actions/download-pages-artifact@v2
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v2
+
+  deploy2ustc:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Download artifact
+      uses: actions/download-pages-artifact@v2
+    - name: Build with Hugo for USTC server
+      env:
+        HUGO_ENVIRONMENT: production
+      run: hugo --minify --baseURL "${{ secrets.MY_HOME_URL }}"
+    - name: Generate Pagefind search index for USTC server
+      run: npx pagefind --site "public"
+    - name: Deploy to USTC server 
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ secrets.MY_FTP_SEVER }}
+        username: ${{ secrets.REMOTE_USER }}
+        password: ${{ secrets.REMOTE_PASSWORD }}
+        local-dir: ./public/
+        server-dir: public_html/
