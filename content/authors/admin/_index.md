@@ -49,22 +49,29 @@ interests:
   - AI for Physics
 
 education:
-  - area: Ph.D. of Condensed Matter Physics
+  - area: Ph.D. in Condensed Matter Physics
     institution: University of Science and Technology of China (USTC)
     date_start: 2016-09-01
     date_end: 2022-12-06
     summary: |
       Supervised by Prof. Zhenhua Qiao (乔振华 教授). 
-      Published 1 _Physical Review Letters_, 1 _Chemistry of Materials_, and 1 _Frontiers of Physics_.
+      Published:
+      - 1 _Physical Review Letters_
+      - 1 _Chemistry of Materials_, 
+      - 1 _Frontiers of Physics_.
     button:
       text: 'Prof. Qiao's Group'
       url: 'http://staff.ustc.edu.cn/~qiao/publications.html'
-  - area: B.Sc. Basic Science of Mathematics and Physics (Base Class)
+  - area: B.Sc. in Basic Science of Mathematics and Physics (Base Class)
     institution: University of Electronic Science and Technology of China (UESTC)
     date_start: 2012-09-01
     date_end: 2016-07-01
     summary: |2- 
-      GPA rank TOP 10%, National Scholarship, 2nd Prize in the China Undergraduate Physics Tournament (CUPT2013), and recomended to University of Science and Technology of China (USTC) to pursue PhD degree.
+      GPA rank TOP 10%
+      Awarded:
+      - National Scholarship
+      - The 2nd Prize in the China Undergraduate Physics Tournament (CUPT2013)
+      - Recomended to University of Science and Technology of China (USTC) to pursue PhD degree.
 work:
   - position: Postdoc Reseacher
     company_name: School of Physical Sciences, University of Science and Technology of China & Institute of Artificial Intelligence, Hefei Comprehensive National Science Center
@@ -74,10 +81,10 @@ work:
     date_end: ''
     summary: Supervised by Prof. Lixin He (何力新 教授). 
     button:
-      - text: 'Prof. He's Google Scholar'
-        url: 'https://scholar.google.com/citations?user=_IbBsXUAAAAJ&hl=en'
-      - text: 'Prof. He's Homepage'
-        url: 'http://lqcc.ustc.edu.cn/helx'
+      text: 'Prof. He's Google Scholar'
+      url: 'https://scholar.google.com/citations?user=_IbBsXUAAAAJ&hl=en'
+      # text: 'Prof. He's Homepage'
+      # url: 'http://lqcc.ustc.edu.cn/helx'
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
