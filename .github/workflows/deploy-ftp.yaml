@@ -3,10 +3,10 @@ name: Deploy website to GitHub Pages
 env:
   WC_HUGO_VERSION: '0.126.1'
 
-on:
-  push:
-    branches: ["main"]
-  workflow_dispatch:
+# on:
+#   push:
+#     branches: ["main"]
+#   workflow_dispatch:
 
 permissions:
   contents: read
