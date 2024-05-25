@@ -13,7 +13,7 @@ address:
   country: China
 
 summary: An example talk will be furture replaced.
-abstract: 'Lorem ipsum dolor sit purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+abstract: 'Lorem ipsum dquis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
