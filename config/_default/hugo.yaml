@@ -5,8 +5,8 @@
 
 # Website name
 title: 'Xudong Zhu (朱旭东)'
-# Website URL
-baseURL: 'https://xdzhu.github.io'
+# Website URL 'https://xdzhu.github.io'
+baseURL: ''
 
 ############################
 ## LANGUAGE
