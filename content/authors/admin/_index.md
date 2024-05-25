@@ -90,11 +90,11 @@ skills:
         description: ''
         percent: 90
         icon: code-bracket
-      - name: Linux Shell
+      - name: Linux Bash
         description: ''
         percent: 100
         icon: chart-bar
-      - name: Bash
+      - name: Powershell
         description: ''
         percent: 100
         icon: circle-stack
