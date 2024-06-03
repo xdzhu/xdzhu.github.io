@@ -7,8 +7,9 @@ authors:
 - Zhenhua Qiao
 - Jianjun Ying
 - Xianhui Chen
+
 date: "2022-02-17T00:00:00Z"
-doi: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.128.077001'
+doi:   #'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.128.077001'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-02-17T00:00:00Z"
@@ -16,7 +17,7 @@ publishDate: "2022-02-17T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Physical Review Letters"

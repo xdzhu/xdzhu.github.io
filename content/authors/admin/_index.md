@@ -98,11 +98,11 @@ skills:
       - name: Python
         description: ''
         percent: 100
-        icon: python执行器.svg
+        icon: python-blue
       - name: ChatGPT
         description: ''
         percent: 100
-        icon: chatgpt-icon-copy.svg
+        icon: chatgpt-icon-copy
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -110,15 +110,15 @@ skills:
       - name: Basketball
         description: ''
         percent: 100
-        icon: 篮球.svg
+        icon: basketball
       - name: Swimming
         description: ''
         percent: 100
-        icon: 竞技游泳.svg
+        icon: swim
       - name: Photography
         description: ''
         percent: 100
-        icon: 户外摄影.svg
+        icon: camera
 
 languages:
   - name: English

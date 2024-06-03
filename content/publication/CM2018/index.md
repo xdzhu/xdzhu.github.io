@@ -5,11 +5,11 @@ title: 'Rapid Identification of the Layer Number of Large-Area Graphene on Coppe
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Zhikai Qi
-  - admin
-  - _{et. al.}_
-  - Zhenhua Qiao
-  - Hengxing Ji
+- Zhikai Qi
+- admin
+- ET AL
+- Zhenhua Qiao
+- Hengxing Ji
 
 # Author notes (optional)
 author_notes:
@@ -17,7 +17,7 @@ author_notes:
   - 'Equal contribution'
 
 date: '2018-02-018T00:00:00Z'
-doi: 'https://pubs.acs.org/doi/10.1021/acs.chemmater.7b05377'
+doi: #'https://pubs.acs.org/doi/10.1021/acs.chemmater.7b05377'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2018-02-01T00:00:00Z'
@@ -44,9 +44,9 @@ tags:
 featured: false
 
 # Custom links (uncomment lines below)
-# links:
-- name: Link
-  url: https://pubs.acs.org/doi/10.1021/acs.chemmater.7b05377
+links:
+- name: "Link"
+  url: 'https://pubs.acs.org/doi/10.1021/acs.chemmater.7b05377'
 url_pdf: 'http://staff.ustc.edu.cn/~qiao/source/acs.chemmater.7b05377.pdf'
 url_code: ''
 url_dataset: ''
