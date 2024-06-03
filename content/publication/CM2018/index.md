@@ -1,11 +1,13 @@
 ---
-title: 'An example conference paper'
+title: 'Rapid Identification of the Layer Number of Large-Area Graphene on Copper'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+  - Zhikai Qi
   - admin
+  - et. al.
   - Zhenhua Qiao
   - Hengxing Ji
 
@@ -18,18 +20,18 @@ date: '2018-02-018T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2018-01-01T00:00:00Z'
+publishDate: '2018-02-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+# Enter a publication type from the CSL standard.  ['paper-conference']
+publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Chemistry of Materials"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Chemical vapor deposition (CVD) on Cu foils emerged as an important method for preparing high-quality and large-area graphene films for practical applications. However, to date it remains challenging to rapidly identify the structural features, especially the layer numbers, of CVD-graphene directly on Cu substrate. Herein, we report an O-2-plasma-assisted approach for identifying the coverage, wrinkles, domain size, and layer number of large-area graphene films on Cu foils by optical microscopy. The wrinkles and grain boundaries of five-layer graphene can be observed with a grayscale increment of similar to 23.4% per one graphene layer after O-2-plasma treatment for only 15 s, which allows for checking graphene on Cu foils with a sample size of 17 cm x 20 cm in a few minutes. The Raman spectroscopy and X-ray photoelectron spectroscopy presents a strong layer number dependence of both the plasma induced graphene defects and Cu oxides, which, as indicated by molecular dynamic simulation, is responsible for the improved image contrast as a result of the interaction between O-ions and graphene with different layer numbers. We expect that this O-2-plasma-assisted method would be applied to meter-scale samples if atmospheric-pressure plasma is used and therefore will be beneficial for the fast evaluation of CVD-graphene in both laboratory and industry.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

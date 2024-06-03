@@ -7,10 +7,10 @@ author_notes:
 - "Equal contribution"
 - "Equal contribution"
 date: "2023-04-01T00:00:00Z"
-doi: "10.1007/s11467-022-1228-4"
+doi: "https://doi.org/10.1007/s11467-022-1228-4"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2022-12-01T00:00:00Z"
+publishDate: "2023-04-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -21,20 +21,21 @@ publication_types: ["article-journal"]
 publication: "Frontiers of Physics"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: We numerically study the general valley polarization and anomalous Hall effect in van der Waals (vdW) heterostructures based on monolayer jacutingaite family materials Pt2AX3 (A = Hg, Cd, Zn; X = S, Se, Te). We perform a systematic study on the atomic, electronic, and topological properties of vdW heterostructures composed of monolayer Pt2AX3 and two-dimensional ferromagnetic insulators. We show that four kinds of vdW heterostructures exhibit valley-polarized quantum anomalous Hall phase, i.e., Pt2HgS3/NiBr2, Pt2HgSe3/CoBr2, Pt2HgSe3/NiBr2, and Pt2ZnS3/CoBr2, with a maximum valley splitting of 134.2 meV in Pt2HgSe3/NiBr2 and sizable global band gap of 58.8 meV in Pt2HgS3/NiBr2. Our findings demonstrate an ideal platform to implement applications on topological valleytronics.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 
 
 tags:
-- Source Themes
+- Topological
+- Heterostructures
 featured: false
 
 # links:
 # - name: ""
 #   url: ""
 url_pdf: https://journal.hep.com.cn/fop/EN/article/downloadArticleFile.do?attachType=PDF&id=33736
-url_code: 'https://journal.hep.com.cn/fop/EN/10.1007/s11467-022-1228-4'
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -45,7 +46,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 

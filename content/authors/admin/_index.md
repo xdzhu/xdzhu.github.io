@@ -58,24 +58,23 @@ education:
     button:
       text: "Prof. Qiao's Group"
       url: 'http://staff.ustc.edu.cn/~qiao/publications.html'
-  - area: B.Sc. in Basic Science of Mathematics and Physics (Base Class)
+  - area: B.Sc. in Basic Science of Mathematics and Physics
     institution: University of Electronic Science and Technology of China (UESTC)
     date_start: 2012-09-01
     date_end: 2016-07-01
     summary: |2- 
-      GPA rank TOP 10%
-      Awarded:
+      GPA rank TOP 10% with Awarded:
       - National Scholarship
-      - The 2nd Prize in the China Undergraduate Physics Tournament (CUPT2013)
+      - 2nd Prize of the China Undergraduate Physics Tournament (CUPT2013)
       - Recomended to University of Science and Technology of China (USTC) to pursue PhD degree.
 work:
   - position: Postdoc Reseacher
     company_name: School of Physical Sciences, University of Science and Technology of China & Institute of Artificial Intelligence, Hefei Comprehensive National Science Center
     company_url: ''
     company_logo: ''
-    date_start: 2023-04-04
+    date_start: 2023-03-24
     date_end: ''
-    summary: "Supervised by Prof. Lixin He (何力新 教授)."
+    summary: "Supervised by Prof. Lixin He (何力新 教授). Research areas include ferroelectric, multiferroic, high-_k_ materials, semiconductor materials, and deep learning force fields."
     button:
       text: "Prof. He's Google Scholar"
       url: 'https://scholar.google.com/citations?user=_IbBsXUAAAAJ&hl=en'
