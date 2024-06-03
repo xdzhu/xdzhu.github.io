@@ -1,12 +1,14 @@
 ---
 title: "Pressure-Induced Dimensional Crossover in a Kagome Superconductor"
 authors:
+- Fanghang Yu
 - admin
+- _{et. al.}_
 - Zhenhua Qiao
 - Jianjun Ying
 - Xianhui Chen
 date: "2022-02-17T00:00:00Z"
-doi: ""
+doi: 'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.128.077001'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-02-17T00:00:00Z"
@@ -18,7 +20,7 @@ publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Physical Review Letters"
-publication_short: "PRL"
+publication_short: ''
 
 abstract: The recently discovered kagome superconductors AV3Sb5, exhibit tantalizing high-pressure phase diagrams, in which a new domelike superconducting phase emeraes under moderate pressure. However. its origin is as vet unknown. Here, we carried out the hiah-pressure electrical measurements up to 150 GPa, together with the hiah-pressure x-ray diffraction measurements and first-principles calculations on CsV3Sb5. We find the new superconducting phase to be rather robust and inherently linked to the interlaver Sb2-Sb2 interactions. The formation of Sb2-Sb2 bonds at high pressure tunes the system from two-dimensional to three-dimensional and pushes the pz orbital of Sb2 upward across the Fermi level, resulting in enhanced density of states and increase of Tc. Our work demonstrates that the dimensional crossover at high pressure can induce a topological phase transition and is related to the abnormal high-pressure Tc evolution. Our findings should apply for other layered materials.
 
@@ -30,19 +32,22 @@ tags:
 - Topological
 - Cooperation
 
+
+# Display this page in the Featured widget?
 featured: true
 
+
 links:
-# - name: Custom Link
-#   url: http://example.org
+- name: Link
+  url: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.128.077001
 url_pdf: http://staff.ustc.edu.cn/~qiao/source/PhysRevLett.128.077001.pdf
 url_code: ''
-url_dataset: '#'
-url_poster: '#'
+url_dataset: ''
+url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: '#'
-url_video: '#'
+url_source: ''
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

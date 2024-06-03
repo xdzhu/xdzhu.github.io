@@ -70,13 +70,19 @@ education:
 work:
   - position: Postdoc Reseacher
     company_name: School of Physical Sciences, University of Science and Technology of China & Institute of Artificial Intelligence, Hefei Comprehensive National Science Center
-    company_url: ''
-    company_logo: ''
+    company_url: https://iai.ustc.edu.cn/
+    company_logo: https://iai.ustc.edu.cn/r/cms/rgzn/default/Artificial-intelligence/img/AI-logo.png
     date_start: 2023-03-24
     date_end: ''
-    summary: "Supervised by Prof. Lixin He (何力新 教授). Research areas include ferroelectric, multiferroic, high-_k_ materials, semiconductor materials, and deep learning force fields."
+    summary: |2-
+      Supervised by Prof. Lixin He (何力新 教授). Research areas include:
+       - Multiferroic
+       - High-_k_ materials
+       - Semiconductor dopant
+       - Deep learning force fields
     button:
       text: "Prof. He's Google Scholar"
+      icon: code-bracket
       url: 'https://scholar.google.com/citations?user=_IbBsXUAAAAJ&hl=en'
 
 
@@ -85,18 +91,18 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python
-        description: ''
-        percent: 90
-        icon: code-bracket
       - name: Linux Bash
         description: ''
         percent: 100
-        icon: chart-bar
-      - name: Powershell
+        icon: code-bracket
+      - name: Python
         description: ''
         percent: 100
-        icon: circle-stack
+        icon: python执行器.svg
+      - name: ChatGPT
+        description: ''
+        percent: 100
+        icon: chatgpt-icon-copy.svg
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -104,19 +110,19 @@ skills:
       - name: Basketball
         description: ''
         percent: 100
-        icon: person-simple-walk
+        icon: 篮球.svg
       - name: Swimming
         description: ''
-        percent: 90
-        icon: cat
+        percent: 100
+        icon: 竞技游泳.svg
       - name: Photography
         description: ''
-        percent: 80
-        icon: camera
+        percent: 100
+        icon: 户外摄影.svg
 
 languages:
   - name: English
-    percent: 80
+    percent: 90
   - name: Chinese
     percent: 100
 
@@ -125,7 +131,7 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
+  - title: China Postdoctoral Science Foundation
     url: https://www.coursera.org/learn/neural-networks-deep-learning
     date: '2023-11-25'
     awarder: Coursera

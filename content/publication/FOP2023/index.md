@@ -2,6 +2,7 @@
 title: " Valley-polarized quantum nomalous Hall effect in van der Waals heterostructures based on monolayer jacutingaite family materials"
 authors:
 - admin
+- _{et. al.}_
 - Zhenhua Qiao
 author_notes:
 - "Equal contribution"
@@ -29,11 +30,13 @@ summary:
 tags:
 - Topological
 - Heterostructures
-featured: false
+
+# Display this page in the Featured widget?
+featured: true
 
 # links:
-# - name: ""
-#   url: ""
+- name: Link
+  url: https://journal.hep.com.cn/fop/EN/10.1007/s11467-022-1228-4
 url_pdf: https://journal.hep.com.cn/fop/EN/article/downloadArticleFile.do?attachType=PDF&id=33736
 url_code: ''
 url_dataset: ''
