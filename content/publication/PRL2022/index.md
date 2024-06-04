@@ -3,15 +3,15 @@ title: "Pressure-Induced Dimensional Crossover in a Kagome Superconductor"
 authors:
 - Fanghang Yu
 - admin
-- _{et. al.}_
+- ET AL
 - Zhenhua Qiao
 - Jianjun Ying
 - Xianhui Chen
 
 date: "2022-02-17T00:00:00Z"
-doi:   #'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.128.077001'
+doi:  #'https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.128.077001'
 
-# Schedule page publish date (NOT publication's date).
+# Schedule page publish date
 publishDate: "2022-02-17T00:00:00Z"
 
 # Publication type.

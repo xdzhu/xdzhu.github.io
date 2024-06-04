@@ -1,17 +1,17 @@
 ---
-title: " Valley-polarized quantum nomalous Hall effect in van der Waals heterostructures based on monolayer jacutingaite family materials"
+title: " Valley-polarized quantum anomalous Hall effect in van der Waals heterostructures based on monolayer jacutingaite family materials"
 authors:
 - admin
-- _et. al._
+- ET AL
 - Zhenhua Qiao
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
 
 date: "2023-04-01T00:00:00Z"
-doi: "https://doi.org/10.1007/s11467-022-1228-4"
+doi: #"https://doi.org/10.1007/s11467-022-1228-4"
 
-# Schedule page publish date (NOT publication's date).
+# Schedule page publish date 
 publishDate: "2023-04-01T00:00:00Z"
 
 # Publication type.

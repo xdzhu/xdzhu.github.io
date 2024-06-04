@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline sdf
-role: Postdoc Reseacher
+role: Postdoctoral Reseacher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -68,7 +68,7 @@ education:
       - 2nd Prize of the China Undergraduate Physics Tournament (CUPT2013)
       - Recomended to University of Science and Technology of China (USTC) to pursue PhD degree.
 work:
-  - position: Postdoc Reseacher
+  - position: Postdoctoral Reseacher
     company_name: School of Physical Sciences, University of Science and Technology of China & Institute of Artificial Intelligence, Hefei Comprehensive National Science Center
     company_url: https://iai.ustc.edu.cn/
     company_logo: https://iai.ustc.edu.cn/r/cms/rgzn/default/Artificial-intelligence/img/AI-logo.png
@@ -76,9 +76,9 @@ work:
     date_end: ''
     summary: |2-
       Supervised by Prof. Lixin He (何力新 教授). Research areas include:
-       - Multiferroic
+       - Multiferroic (ferroelectric and ferromagnetic)
        - High-_k_ materials
-       - Semiconductor dopant
+       - Semiconductor doping
        - Deep learning force fields
     button:
       text: "Prof. He's Google Scholar"
@@ -132,30 +132,22 @@ languages:
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: China Postdoctoral Science Foundation
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
+    url: https://jj.chinapostdoctor.org.cn/auth/login.html
+    date: '2023-06-25'
+    awarder: China Postdoctoral Science Foundation
     icon: coursera
     summary: |
       I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
+  - title: Anhui Province Postdoctoral Science Foundation
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
+    date: '2023-12-12'
+    awarder: Anhui Province
     icon: edx
     summary: |
       Learned:
       - Synthesize your own blockchain solutions
       - Gain an in-depth understanding of the specific mechanics of Bitcoin
       - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using thesystems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
 ## About Me
