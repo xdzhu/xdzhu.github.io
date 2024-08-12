@@ -13,13 +13,10 @@ address:
   country: China
 
 summary: Chinese research team develops "ABACUS" software to help develop new materials.
-abstract: Insight into the physical processes of the microscopic world, "doing experiments" in computer software, finding or developing new materials faster... Recently, the "atomic computing chip" material computing software developed by a research team led by He Lixin, a professor at the Key Laboratory of Quantum Information of the Chinese Academy of Sciences and the Institute of Artificial Intelligence of the Hefei Comprehensive National Science Center, has achieved the above functions.
-
+abstract: 'Insight into the physical processes of the microscopic world, "doing experiments" in computer software, finding or developing new materials faster... Recently, the "atomic computing chip" material computing software developed by a research team led by He Lixin, a professor at the Key Laboratory of Quantum Information of the Chinese Academy of Sciences and the Institute of Artificial Intelligence of the Hefei Comprehensive National Science Center, has achieved the above functions.
 Material science is an important cornerstone of modern science and technology and economic development. The first principles method based on density functional theory has become a key means to study the physical properties of materials. By using this method, the physical properties of materials can be accurately calculated, which provides the possibility for functional oriented material design.
-
 Atomic Computing is based on a first-principles approach and enables accurate simulation of material properties at the atomic scale in a computer. It can calculate the physical properties of materials from basic principles without relying on experiments, just like a "smart microscope" for the microscopic world, which can see the physical processes at the atomic level.
-
-After 18 years of dedicated research by the "Atomic computing chip" team, now "atomic Computing chip" has developed into a fully functional material computing platform, opening up a new path of "reducing cost and increasing efficiency" for the research and development of new materials.
+After 18 years of dedicated research by the "Atomic computing chip" team, now "atomic Computing chip" has developed into a fully functional material computing platform, opening up a new path of "reducing cost and increasing efficiency" for the research and development of new materials.'
 
 
 
