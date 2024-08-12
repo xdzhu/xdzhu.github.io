@@ -1,12 +1,12 @@
 ---
 title: "NETosis-Inspired Cell Surface-Constrained Framework Nucleic Acids Traps (FNATs) for Cascaded Extracellular Recognition and Cellular Behavior Modulation"
 authors:
-
 - Hangsheng Gong
 - ET AL
-- {admin}*
-- Yi Du*
-- Pai Peng*
+- admin
+- Yi Du
+- Pai Peng
+
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
