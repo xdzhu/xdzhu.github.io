@@ -1,9 +1,12 @@
 ---
-title: "Valley-polarized quantum anomalous Hall effect in van der Waals heterostructures based on monolayer jacutingaite family materials"
+title: "NETosis-Inspired Cell Surface-Constrained Framework Nucleic Acids Traps (FNATs) for Cascaded Extracellular Recognition and Cellular Behavior Modulation"
 authors:
-- admin
+
+- Hangsheng Gong
 - ET AL
-- Zhenhua Qiao
+- admin *
+- Yi Du *
+- Pai Peng *
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
@@ -12,7 +15,7 @@ date: "2023-04-01T00:00:00Z"
 doi: #"https://doi.org/10.1007/s11467-022-1228-4"
 
 # Schedule page publish date 
-publishDate: "2023-04-01T00:00:00Z"
+publishDate: "2024-05-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -20,25 +23,25 @@ publishDate: "2023-04-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Frontiers of Physics"
+publication: "Angewandte Chemie International Edition"
 publication_short: ""
 
-abstract: We numerically study the general valley polarization and anomalous Hall effect in van der Waals (vdW) heterostructures based on monolayer jacutingaite family materials Pt2AX3 (A = Hg, Cd, Zn; X = S, Se, Te). We perform a systematic study on the atomic, electronic, and topological properties of vdW heterostructures composed of monolayer Pt2AX3 and two-dimensional ferromagnetic insulators. We show that four kinds of vdW heterostructures exhibit valley-polarized quantum anomalous Hall phase, i.e., Pt2HgS3/NiBr2, Pt2HgSe3/CoBr2, Pt2HgSe3/NiBr2, and Pt2ZnS3/CoBr2, with a maximum valley splitting of 134.2 meV in Pt2HgSe3/NiBr2 and sizable global band gap of 58.8 meV in Pt2HgS3/NiBr2. Our findings demonstrate an ideal platform to implement applications on topological valleytronics.
+abstract: Upon pathogenic stimulation, activated neutrophils release nuclear DNA into the extracellular environment, forming web-like DNA structures known as neutrophil extracellular traps (NETs), which capture and kill bacteria, fungi, and cancer cells. This phenomenon is commonly referred to as NETosis. Inspired by this, we introduce a cell surface-constrained web-like framework nucleic acids traps (FNATs) with programmable extracellular recognition capability and cellular behavior modulation. This approach facilitates dynamic key chemical signaling molecule recognition such as adenosine triphosphate (ATP), which is elevated in the extracellular microenvironment, and triggers FNA self-assembly. This, in turn, leads to in situ tightly interwoven FNAs formation on the cell surface, thereby inhibiting target cell migration. Furthermore, it activates a photosensitizer-capturing switch, chlorin e6 (Ce6), and induces cell self-destruction. This cascade platform provides new potential tools for visualizing dynamic extracellular activities and manipulating cellular behaviors using programmable in situ self-assembling DNA molecular devices.
 
 # Summary. An optional shortened abstract.
 summary: 
 
 tags:
-- Topological
-- Heterostructures
+- Chemistry
+- DNA molecular devices
 
 # Display this page in the Featured widget?
 featured: true
 
 links:
 - name: Link
-  url: https://journal.hep.com.cn/fop/EN/10.1007/s11467-022-1228-4
-url_pdf: https://journal.hep.com.cn/fop/EN/article/downloadArticleFile.do?attachType=PDF&id=33736
+  url: https://onlinelibrary.wiley.com/doi/10.1002/anie.202319908
+url_pdf: https://onlinelibrary.wiley.com/doi/epdf/10.1002/anie.202319908
 url_code: ''
 url_dataset: ''
 url_poster: ''
