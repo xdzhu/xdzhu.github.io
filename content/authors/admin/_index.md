@@ -63,9 +63,9 @@ education:
     date_start: 2012-09-01
     date_end: 2016-07-01
     summary: |2- 
-      GPA rank TOP 10% with Awarded:
+      GPA rank TOP 3 with Awarded:
       - National Scholarship
-      - 2nd Prize of the China Undergraduate Physics Tournament (CUPT2013)
+      - National 2nd Prize of the 2013 China Undergraduate Physics Tournament (CUPT2013)
       - Recomended to University of Science and Technology of China (USTC) to pursue PhD degree.
 work:
   - position: Postdoctoral Reseacher
@@ -88,43 +88,43 @@ work:
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Linux Bash
-        description: ''
-        percent: 100
-        icon: code-bracket
-      - name: Python
-        description: ''
-        percent: 100
-        icon: python-blue
-      - name: ChatGPT
-        description: ''
-        percent: 100
-        icon: chatgpt-icon-copy
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Basketball
-        description: ''
-        percent: 100
-        icon: basketball
-      - name: Swimming
-        description: ''
-        percent: 100
-        icon: swim
-      - name: Photography
-        description: ''
-        percent: 100
-        icon: camera
+# skills:
+#   - name: Technical Skills
+#     items:
+#       - name: Linux Bash
+#         description: ''
+#         percent: 100
+#         icon: code-bracket
+#       - name: Python
+#         description: ''
+#         percent: 100
+#         icon: python-blue
+#       - name: ChatGPT
+#         description: ''
+#         percent: 100
+#         icon: chatgpt-icon-copy
+#   - name: Hobbies
+#     color: '#eeac02'
+#     color_border: '#f0bf23'
+#     items:
+#       - name: Basketball
+#         description: ''
+#         percent: 100
+#         icon: basketball
+#       - name: Swimming
+#         description: ''
+#         percent: 100
+#         icon: swim
+#       - name: Photography
+#         description: ''
+#         percent: 100
+#         icon: camera
 
-languages:
-  - name: English
-    percent: 90
-  - name: Chinese
-    percent: 100
+# languages:
+#   - name: English
+#     percent: 90
+#   - name: Chinese
+#     percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
