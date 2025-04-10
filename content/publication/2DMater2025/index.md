@@ -1,20 +1,20 @@
 ---
-title: "Uniformity, Linearity, and Symmetry Enhancement in TiOx/MoS2–xOx Based Analog RRAM via S-Vacancy Confined Nanofilament"
+title: "Tuning oxygen vacancies in complex oxides using 2D layered materials"
 authors:
-- D. Sun
+- Jiangbo Luo
 - admin
 - ET AL
-- Lixin He
-- Yuanyuan Shi
+- A Ariando
+- Junxiong Hu
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
 
-date: "2024-12-13T00:00:00Z"
-doi: "https://doi.org/10.1021/acs.nanolett.4c04434"
+date:  "2025-01-01T00:00:00Z"
+doi: "https://doi.org/10.1088/2053-1583/ada041"
 
 # Schedule page publish date 
-publishDate: "2024-12-13T00:00:00Z"
+publishDate: "2025-01-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -22,26 +22,25 @@ publishDate: "2024-12-13T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Nano Letters"
+publication: "2D Materials"
 publication_short: ""
 
-abstract: Due to the stochastic formation of conductive filaments (CFs), analog resistive random-access memory (RRAM) struggles to simultaneously achieve low variability, high linearity, and symmetry in conductance tuning, thus complicating on-chip training and limiting versatility of RRAM based computing-in-memory (CIM) chips. In this study, we present a simple and effective approach using monolayer (ML) MoS2 as interlayer to control the CFs formation in TiOx switching layer. The limited S-vacancies (Sv) in MoS2–xOx interlayer can further confine the position, size, and quantity of CFs, resulting in a highly uniform and symmetrical switching behavior. The set and reset voltages (Vset and Vreset) in TiOx/MoS2–xOx based RRAM are symmetric, with cycle-to-cycle variations of 1.28% and 1.7%, respectively. Moreover, high conductance tuning linearity and 64-level switching capabilities are achieved, which facilitate high accuracy (93.02%) on-chip training. This method mitigates the device nonidealities of analog RRAM through Sv confined CFs, accelerating the development of RRAM based CIM chips.
+abstract: The hybrid interface between 2D materials and complex oxides offers a rich platform to explore fascinating physical phenomena like helical edge states, broken-symmetry phases, and giant magnetoresistance. While current research primarily focuses on the influence of complex oxides on layered 2D materials, the reverse - how layered 2D materials affect complex oxides - remains largely unexplored. Here, we examined the impact of graphene layers on the formation of oxygen vacancies in SrTiO3 (STO) during high-temperature annealing. Our findings, supported by Raman spectroscopy and X-ray photoelectron spectroscopy, indicate that increasing the number of graphene layers progressively leads to a reduced oxygen vacancy content in STO, demonstrating the efficacy of graphene in modulating oxygen vacancy formation in bulk STO. Additionally, using photoluminescence, we showed that graphene layers can tune the in-gap states induced by oxygen vacancies in STO. Our first principal calculations further revealed that graphene layers increase the energy barrier for the outward diffusion of oxygen atoms, thereby inhibiting the formation of oxygen vacancies in STO. These results highlight a new route for tailoring the physical properties of complex oxides by engineering the interface with layered 2D materials.
 
 # Summary. An optional shortened abstract.
 summary: 
 
 tags:
-- RRAM Device
+- Heterostructures
 - NEB Calculation
-- Co-First Author
 
 # Display this page in the Featured widget?
 featured: true
 
 links:
 - name: Link
-  url: https://pubs.acs.org/doi/10.1021/acs.nanolett.4c04434
-url_pdf: https://pubs.acs.org/doi/10.1021/acs.nanolett.4c04434
+  url: https://iopscience.iop.org/article/10.1088/2053-1583/ada041
+url_pdf: https://iopscience.iop.org/article/10.1088/2053-1583/ada041
 url_code: ''
 url_dataset: ''
 url_poster: ''

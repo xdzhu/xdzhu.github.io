@@ -38,7 +38,8 @@ summary: ''
 
 tags:
   - Molecular dynamics
-  - Cooperation
+  - Chemistry
+  - Co-First Author
 
 # Display this page in the Featured widget?
 featured: false

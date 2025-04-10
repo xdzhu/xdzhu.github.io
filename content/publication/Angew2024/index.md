@@ -33,7 +33,8 @@ summary:
 
 tags:
 - Chemistry
-- DNA molecular devices
+- DNA Molecular Device
+- Co-Corresponding Author
 
 # Display this page in the Featured widget?
 featured: true
