@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline sdf
-role: Postdoctoral Reseacher
+role: Associate Research Fellow
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -38,7 +38,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/xdzhu
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=JcgLVdUAAAAJ
   - icon: academicons/orcid
     url: https://orcid.org/0000-0003-2006-7109
 
@@ -68,12 +68,29 @@ education:
       - National 2nd Prize of the 2013 China Undergraduate Physics Tournament (CUPT2013)
       - Recomended to University of Science and Technology of China (USTC) to pursue PhD degree.
 work:
+  - position: Associate Research Fellow
+    company_name: School of Physical Sciences, University of Science and Technology of China & Institute of Artificial Intelligence, Hefei Comprehensive National Science Center
+    company_url: https://iai.ustc.edu.cn/
+    company_logo: https://iai.ustc.edu.cn/r/cms/rgzn/default/Artificial-intelligence/img/AI-logo.png
+    date_start: 2025-05-20
+    date_end: ''
+    summary: |2-
+      Cooperated with Prof. Lixin He (何力新 教授). Research areas include:
+       - Multiferroic (ferroelectric and ferromagnetic)
+       - High-_k_ materials
+       - Semiconductor doping
+       - Deep learning force fields
+    # button:
+    #   text: "Prof. He's Google Scholar"
+    #   icon: code-bracket
+    #   url: 'https://scholar.google.com/citations?user=_IbBsXUAAAAJ&hl=en'
+
   - position: Postdoctoral Reseacher
     company_name: School of Physical Sciences, University of Science and Technology of China & Institute of Artificial Intelligence, Hefei Comprehensive National Science Center
     company_url: https://iai.ustc.edu.cn/
     company_logo: https://iai.ustc.edu.cn/r/cms/rgzn/default/Artificial-intelligence/img/AI-logo.png
     date_start: 2023-03-24
-    date_end: ''
+    date_end: 2025-05-09
     summary: |2-
       Supervised by Prof. Lixin He (何力新 教授). Research areas include:
        - Multiferroic (ferroelectric and ferromagnetic)
@@ -84,6 +101,7 @@ work:
       text: "Prof. He's Google Scholar"
       icon: code-bracket
       url: 'https://scholar.google.com/citations?user=_IbBsXUAAAAJ&hl=en'
+
 
 
 # Skills
