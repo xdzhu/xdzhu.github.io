@@ -24,10 +24,10 @@ role: Associate Research Fellow
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: School of Physical Sciences, University of Science and Technology of China (USTC)
-    url: https://physics.ustc.edu.cn/
   - name: Institute of Artificial Intelligence, Hefei Comprehensive National Science Center
     url: https://iai.ustc.edu.cn/
+  - name: School of Physical Sciences, University of Science and Technology of China (USTC)
+    url: https://physics.ustc.edu.cn/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -55,9 +55,14 @@ education:
     date_end: 2022-12-06
     summary: |
       Supervised by Prof. Zhenhua Qiao (乔振华 教授). Published 1 _Physical Review Letters_, 1 _Chemistry of Materials_, and 1 _Frontiers of Physics_.
+       - Topological physics
+       - Low-dimensional systems
+       - First-principles calculations
+       - Molecular dynamics
     button:
       text: "Prof. Qiao's Group"
       url: 'http://staff.ustc.edu.cn/~qiao/publications.html'
+
   - area: B.Sc. in Basic Science of Mathematics and Physics
     institution: University of Electronic Science and Technology of China (UESTC)
     date_start: 2012-09-01
@@ -69,7 +74,7 @@ education:
       - Recomended to University of Science and Technology of China (USTC) to pursue PhD degree.
 work:
   - position: Associate Research Fellow
-    company_name: School of Physical Sciences, University of Science and Technology of China & Institute of Artificial Intelligence, Hefei Comprehensive National Science Center
+    company_name: Institute of Artificial Intelligence, Hefei Comprehensive National Science Center
     company_url: https://iai.ustc.edu.cn/
     company_logo: https://iai.ustc.edu.cn/r/cms/rgzn/default/Artificial-intelligence/img/AI-logo.png
     date_start: 2025-05-20
@@ -80,10 +85,10 @@ work:
        - High-_k_ materials
        - Semiconductor doping
        - Deep learning force fields
-    # button:
-    #   text: "Prof. He's Google Scholar"
-    #   icon: code-bracket
-    #   url: 'https://scholar.google.com/citations?user=_IbBsXUAAAAJ&hl=en'
+    button:
+      text: "Prof. He's Google Scholar"
+      icon: code-bracket
+      url: 'https://scholar.google.com/citations?user=_IbBsXUAAAAJ'
 
   - position: Postdoctoral Reseacher
     company_name: School of Physical Sciences, University of Science and Technology of China & Institute of Artificial Intelligence, Hefei Comprehensive National Science Center
@@ -100,7 +105,7 @@ work:
     button:
       text: "Prof. He's Google Scholar"
       icon: code-bracket
-      url: 'https://scholar.google.com/citations?user=_IbBsXUAAAAJ&hl=en'
+      url: 'https://scholar.google.com/citations?user=_IbBsXUAAAAJ'
 
 
 
@@ -167,4 +172,4 @@ awards:
 
 ## About Me
 
-Xudong Zhu (朱旭东) received his Ph.D. degree in physics from the University of Science and Technology of China (USTC) in 2022. He is currently a post-doctral researcher at the School of Physical Sciences, University of Science and Technology of China & the Institute of Artificial Intelligence, Hefei Comprehensive National Science Center. His research interests include topological condensed matter systems, mutiferroic materials and machine learning force field.
+Xudong Zhu (朱旭东) received his Ph.D. degree in physics from the University of Science and Technology of China (USTC) in 2022. He is currently an associate research fellow at the Institute of Artificial Intelligence, Hefei Comprehensive National Science Center. He has finished the post-doctoral research at the School of Physical Sciences, USTC. His research interests include topological condensed matter systems, mutiferroic materials and machine learning force field.
