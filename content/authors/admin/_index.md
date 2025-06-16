@@ -72,6 +72,7 @@ education:
       - National Scholarship
       - National 2nd Prize of the 2013 China Undergraduate Physics Tournament (CUPT2013)
       - Recomended to University of Science and Technology of China (USTC) to pursue PhD degree.
+
 work:
   - position: Associate Research Fellow
     company_name: Institute of Artificial Intelligence, Hefei Comprehensive National Science Center
@@ -172,4 +173,4 @@ awards:
 
 ## About Me
 
-Xudong Zhu (朱旭东) received his Ph.D. degree in physics from the University of Science and Technology of China (USTC) in 2022. He is currently an associate research fellow at the Institute of Artificial Intelligence, Hefei Comprehensive National Science Center. He has finished the post-doctoral research at the School of Physical Sciences, USTC. His research interests include topological condensed matter systems, mutiferroic materials and machine learning force field.
+Xudong Zhu (朱旭东) received his Ph.D. degree in physics from the University of Science and Technology of China (USTC) in 2022. He is an Associate Research Fellow at the Institute of Artificial Intelligence, Hefei Comprehensive National Science Center (Hefei-IAI). He completed his post-doctoral work at USTC and Hefei-IAI. His research interests include topological condensed matter systems, mutiferroic materials and machine learning force field.
